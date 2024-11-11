@@ -1,16 +1,10 @@
-# 🌟 Fibonacci Sequence Calculator
+# 🌟 Recursive Fibonacci Sequence Generator
 
-This Python program calculates the **Fibonacci number** for a given integer `n` using recursion. The Fibonacci sequence is defined as follows:
-
-- \( F(0) = 0 \)
-- \( F(1) = 1 \)
-- For \( n > 1 \), \( F(n) = F(n-1) + F(n-2) \)
-
-This sequence is commonly used in mathematics and computer science for problems involving recursion, dynamic programming, and more. 📊
+This Python program calculates the **Fibonacci sequence** up to the `n`th Fibonacci number using recursion. The sequence starts from `0` and continues by summing the previous two numbers. 📊
 
 ## 📋 Example Output
 
 For example, if you enter `n = 6`, the output will be:
 
 ```bash
-The 6th Fibonacci number is 8
+Fibonacci sequence up to the 6th number: [0, 1, 1, 2, 3, 5, 8]
